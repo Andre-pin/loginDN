@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* Define que o HTML e o Body vão ocupar 100% da altura da janela */
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
@@ -44,15 +45,16 @@ main {
   height: 100vh
 }
 
-/* Estilo do formulário */
+/* Estilo do meu formulário */
 .form-container {
   background: white;
   padding: 40px;
-  border-radius: 0px;
+  border-radius: 0px; /* essa linha aredonda meu formulário */
   width: 100%;
   max-width: 400px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
+  margin-top: -50px;  /* essa linha mover meu formulário mais para cima */
 }
 
 .form-container h1 {
@@ -80,7 +82,14 @@ form input {
   border-radius: 5px;
   text-align: center; /* Opcional: centraliza o texto nos campos */
   color: #333333;      /* Cor da letra dentro do input */
-  font-size: 15px; /* Tamanho da letra */
+  font-size: 16px; /* Tamanho da letra */
+}
+
+/* (aquele texto de fundo que aparece antes de digitar) para combinar com o design */
+form input::placeholder {
+  color: #999999;
+  font-size: 14px;
+  opacity: 1;
 }
 
 button {

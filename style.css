@@ -49,12 +49,12 @@ main {
 .form-container {
   background: white;
   padding: 40px;
-  border-radius: 0px; /* essa linha aredonda meu formulário */
+  border-radius: 0px; /* essa linha aredonda bordas do formulário */
   width: 100%;
   max-width: 400px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
-  margin-top: -50px;  /* essa linha mover meu formulário mais para cima */
+  margin-top: -80px;  /* essa linha mover meu formulário mais para cima */
 }
 
 .form-container h1 {
